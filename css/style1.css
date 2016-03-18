@@ -1,0 +1,63 @@
+.navbar-header {
+width: 200px;
+float: left;
+margin: 10px 0;
+margin-left: 40px;
+}
+.navbar-header a{
+font-size: 30px;
+color: whitesmoke;
+}
+.navbar small{
+  font-size: 12px;
+  color: whitesmoke;
+}
+.navbar{
+  background: url("../img/bg.jpg");
+}
+.container .nav-collapse{
+  font-size: 20px;
+  margin-top: 20px;
+}
+#search{
+  width: 150px;
+}
+#myCarousel{
+  margin-top: 120px;
+  margin-bottom: 10px;
+}
+.carousel-caption{
+  font-size: 18px;
+}
+.carousel-caption h4{
+  font-size: 22px;
+}
+#myCarousel .item{
+  height: 327px;
+}
+
+#slide1{
+  background: url("../img/books_bg.jpg")top center no-repeat;
+}
+#slide2{
+  background: url("../img/honor_bg.jpg")top center no-repeat;
+}
+#slide3{
+  background: url("../img/laptop_bg.jpg")top center no-repeat;
+}
+#slide4{
+  background: url("../img/tv_bg.jpg")top center no-repeat;
+}
+#features{
+  text-align: center;
+  position: relative;
+}
+.price{
+  font-size: 16px;
+  position: absolute;
+  right: 15px;
+}
+#features img{
+  width: 300px;
+  height: 100%;
+}
