@@ -19,6 +19,12 @@ color: whitesmoke;
   font-size: 20px;
   margin-top: 20px;
 }
+#myModal #pwd{
+  margin-bottom: 10px;
+}
+#myModal a{
+  margin-left: 10px;
+}
 #search{
   width: 150px;
 }
@@ -33,7 +39,7 @@ color: whitesmoke;
   font-size: 22px;
 }
 #myCarousel .item{
-  height: 327px;
+  height: 330px;
 }
 
 #slide1{
@@ -58,6 +64,184 @@ color: whitesmoke;
   right: 15px;
 }
 #features img{
-  width: 300px;
+  width: 90%;
   height: 100%;
+}
+#tab1 .cont1{
+  margin-top: 10px;
+}
+#tab1 img{
+margin-top: 25px
+}
+#tab1 .cont1 h4{
+  font-size: 20px;
+}
+#tab2 iframe{
+  margin-bottom: 20px;
+}
+.bank{
+  border: 1px #e4e4e4 solid;
+  margin-left: 20px;
+}
+.bank i{
+  font-size: 20px;
+  color:#2aa22a;
+}
+.bank h3{
+
+  font-weight: bold;
+  font-size: 24px;
+}
+.bank h4{
+  padding: 2px;
+  font-size: 22px;
+}
+
+footer{
+  color: #eee;
+  background-color: #333;
+  padding: 20px;
+  font-size: 14px;
+  margin-top: 20px;
+}
+ul.unstyled{
+  list-style: none;
+  padding: 0;
+}
+ul.unstyled li{
+  margin-bottom: 5px;
+}
+.media{
+  float: left;
+  margin-top: 6px;
+  margin-bottom: 2px;
+  margin-right: 10px;
+}
+.fb{
+  width: 18px;
+  height: 18px;
+  text-align: center;
+  color:#3B5998;
+  background-color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.fb:hover{
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  width: 19px;
+  height: 19px;
+  color:white;
+  background-color: #3B5998;
+  border-radius: 5px;
+  text-align: center;
+}
+.gp{
+  width:18px;
+  height: 18px;
+  background-color: white;
+  color : red;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.gp:hover{
+  font-weight: bold;
+  width:19px;
+  height: 19px;
+  background-color: red;
+  color : white;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 14px;
+}
+.yh{
+  width:18px;
+  height: 18px;
+  background-color: white;
+  color : purple;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.yh:hover{
+  font-weight: bold;
+  width:19px;
+  height: 19px;
+  background-color: purple;
+  color : white;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 15px;
+}
+/*---------------------------*/
+@media(max-width:480px){
+  #features img{
+    width: 80%;
+    height: 100%;
+  }
+  #tab1 img{
+    margin-top: 25px;
+    width: 60%;
+  }
+  #myCarousel .item{
+    height: 150px;
+  }
+
+  #slide1{
+    background: url("../img/books_bg_sm.jpg")top center no-repeat;
+  }
+  #slide2{
+    background: url("../img/honor_bg_sm.jpg")top center no-repeat;
+  }
+  #slide3{
+    background: url("../img/laptop_bg_sm.jpg")top center no-repeat;
+  }
+  #slide4{
+    background: url("../img/tv_bg_sm.jpg")top center no-repeat;
+  }
+
+}
+@media(max-width:786px){
+  #tab1 img{
+    margin-top: 25px;
+    width: 80%;
+  }
+
+  #myCarousel .item{
+    height: 230px;
+  }
+  #slide1{
+    background: url("../img/books_bg_md.jpg")top center no-repeat;
+  }
+  #slide2{
+    background: url("../img/honor_bg_md.jpg")top center no-repeat;
+  }
+  #slide3{
+    background: url("../img/laptop_bg_md.jpg")top center no-repeat;
+  }
+  #slide4{
+    background: url("../img/tv_bg_md.jpg")top center no-repeat;
+  }
+
+}
+@media(min-width:1200px){
+
+  #slide1{
+    background: url("../img/books_bg.jpg")top center no-repeat;
+  }
+  #slide2{
+    background: url("../img/honor_bg.jpg")top center no-repeat;
+  }
+  #slide3{
+    background: url("../img/laptop_bg.jpg")top center no-repeat;
+  }
+  #slide4{
+    background: url("../img/tv_bg.jpg")top center no-repeat;
+  }
+
 }
