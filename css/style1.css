@@ -1,19 +1,26 @@
-.navbar-header {
-width: 200px;
+.header {
+width: 400px;
 float: left;
 margin: 10px 0;
-margin-left: 40px;
+margin-left: 0px;
+text-align: center;
 }
-.navbar-header a{
-font-size: 30px;
-color: whitesmoke;
+.header a{
+  text-decoration: none;
+  font-size: 250%;
+  color: whitesmoke;
 }
-.navbar small{
-  font-size: 12px;
+.header small{
+  font-size: 16px;
   color: whitesmoke;
 }
 .navbar{
   background: url("../img/bg.jpg");
+  margin-bottom: 20px;
+}
+.container #somenav{
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 .container .nav-collapse{
   font-size: 20px;
@@ -25,15 +32,19 @@ color: whitesmoke;
 #myModal a{
   margin-left: 10px;
 }
+
 #search{
   width: 150px;
 }
 #myCarousel{
-  margin-top: 120px;
+  margin-top: 100px;
   margin-bottom: 10px;
 }
 .carousel-caption{
   font-size: 18px;
+  color: #333;
+  text-shadow: 1px 2px 0 white;
+  font-weight: bold;
 }
 .carousel-caption h4{
   font-size: 22px;
@@ -178,6 +189,49 @@ ul.unstyled li{
   border-radius: 5px;
   font-size: 15px;
 }
+/*------------mob.html--------*/
+.mobile{
+  text-align: center;
+}
+.mobile ul{
+  font-size: 12px;
+}
+#myCarousel2{
+  display: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#myCarousel2 h3{
+  text-align: center;
+}
+#myCarousel2 .item{
+  height: 350px;
+}
+#mobile1{
+  background: url("../img/moto.jpeg")top center no-repeat;
+}
+#mobile2{
+  background: url("../img/honot.jpeg")top center no-repeat;
+}
+#mobile3{
+  background: url("../img/iphone.jpeg")top center no-repeat;
+}
+#mobile4{
+  background: url("../img/holl2.jpeg")top center no-repeat;
+}
+#mobile5{
+  background: url("../img/samsung.jpeg")top center no-repeat;
+}
+#mobile6{
+  background: url("../img/samsungj7.jpeg")top center no-repeat;
+}
+#mobile7{
+  background: url("../img/gionee.jpeg")top center no-repeat;
+}
+#mobile8{
+  background: url("../img/lemax.jpeg")top center no-repeat;
+}
+
 /*---------------------------*/
 @media(max-width:480px){
   #features img{
@@ -193,20 +247,32 @@ ul.unstyled li{
   }
 
   #slide1{
-    background: url("../img/books_bg_sm.jpg")top center no-repeat;
+    background: url("../img/books_bg_xsm.jpg")top center no-repeat;
   }
   #slide2{
-    background: url("../img/honor_bg_sm.jpg")top center no-repeat;
+    background: url("../img/honor_bg_xsm.jpg")top center no-repeat;
   }
   #slide3{
-    background: url("../img/laptop_bg_sm.jpg")top center no-repeat;
+    background: url("../img/laptop_bg_xsm.jpg")top center no-repeat;
   }
   #slide4{
-    background: url("../img/tv_bg_sm.jpg")top center no-repeat;
+    background: url("../img/tv_bg_xsm.jpg")top center no-repeat;
   }
 
 }
 @media(max-width:786px){
+  .header{
+    width: 250px;
+    text-align: left;
+  }
+  .header a{
+    font-size: 20px;
+  }
+  .container .nav-collapse{
+    font-size: 15px;
+    margin-top: 40px;
+  }
+
   #tab1 img{
     margin-top: 25px;
     width: 80%;
@@ -215,6 +281,7 @@ ul.unstyled li{
   #myCarousel .item{
     height: 230px;
   }
+
   #slide1{
     background: url("../img/books_bg_md.jpg")top center no-repeat;
   }
@@ -226,6 +293,21 @@ ul.unstyled li{
   }
   #slide4{
     background: url("../img/tv_bg_md.jpg")top center no-repeat;
+  }
+  #mobiles{
+    display: none;
+  }
+  #myCarousel2{
+    display: block;
+  }
+  .carousel-caption{
+    font-size: 16px;
+    color: #333;
+    text-shadow: 1px 2px 0 white;
+    font-weight: bold;
+  }
+  .carousel-caption h4{
+    font-size: 20px;
   }
 
 }
