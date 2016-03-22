@@ -72,6 +72,9 @@
   width: 90%;
   height: 100%;
 }
+.feature{
+  overflow: hidden;
+}
 #tab1 .cont1{
   margin-top: 10px;
 }
@@ -255,6 +258,7 @@ ul.unstyled li{
 
 }
 @media(max-width:786px){
+
   .header{
     width: 250px;
     text-align: left;
